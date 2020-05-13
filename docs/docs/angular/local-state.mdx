@@ -106,7 +106,7 @@ Open the Redux devtools, and you'll see the magic. You can play with the code [h
 You can also manage a collection of stores in a service. For example:
 
 ```ts counters.service.ts
-@Injectable({ providedIn: 'root })
+@Injectable({ providedIn: 'root' })
 export class CountersService {
   private stores = new Map();
 
